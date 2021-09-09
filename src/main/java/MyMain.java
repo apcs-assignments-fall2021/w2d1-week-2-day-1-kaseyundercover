@@ -1,16 +1,24 @@
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
 public class MyMain {
+
     // Takes two Strings as input, and returns a String equal to the first half
     // of the shorter String plus the second half of the longer String.
     public static String halfAdder(String str1, String str2) {
-        // REPLACE THIS WITH YOUR CODE
-        return "";
+        String firsthalf = str1.substring(0,str1.length()/2);
+        String secondhalf = str2.substring(str2.length()/2);
+        return (firsthalf + secondhalf);
+
     }
 
     // Takes a String as input, and returns true if the String contains an 'A' or 'a'
     // and returns false otherwise
     public static boolean checkIfA(String str) {
-        // REPLACE THIS WITH YOUR CODE
-        return false;
+    for (int i=0; i<str.length(); i++)
+        str.charAt(i);
+
+
     }
 
     //  Takes in two Strings as input and returns a String equal to those two Strings added
